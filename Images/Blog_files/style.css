@@ -94,4 +94,8 @@ figcaption {
   .flex-container {
     flex-direction: column;
   }
+
+  .article-post {
+    flex-direction: column;
+  }
 }

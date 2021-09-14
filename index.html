@@ -2,7 +2,7 @@
 <head>
    <meta charset="utf-8"/>
    <title>Blog</title>
-   <meta name="Blog" content="Example"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <!--Import Font Awesome Brand Icons-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,11 +15,9 @@
       <aside class="aside">
          <h4>Aside</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Lacus luctus accumsan tortor posuere ac ut consequat semper.</p>
-         <a href="http://www.facebook.com"><button class="share"><i class="fa fa-facebook-square	
-            "></i>Share</button></a>
-         <a href="http://www.twitter.com"><button class="tweet"><i class="fa fa-twitter-square"></i>Tweet</button>
-         </a>
-         <a href="http://www.pinterest.com"><button class="pin"><i class="fa fa-pinterest"></i>Pin</button>
+         <a href="http://www.facebook.com"><button class="share"><i id="buttons" class="fa fa-facebook-square"></i>Share</button></a>
+         <a href="http://www.twitter.com"><button class="tweet"><i id ="buttons" class="fa fa-twitter-square"></i>Tweet</button></a>
+         <a href="http://www.pinterest.com"><button class="pin"><i id="buttons" class="fa fa-pinterest"></i>Pin</button>
          </a>
       </aside>
       <article class="article">
@@ -28,21 +26,24 @@
          <div class="flex-container">
             <div class="post">
                <h2>Article 1</h2>
-               <img class="image" src="Images/post-image1.jpeg">
+               <img class="image" src="Images/post-image1.jpeg" alt="canyon view">
+               <figcaption>Fig.1 - View of Canyons</figcaption>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio facilisis mauris sit amet massa. Phasellus faucibus scelerisque eleifend donec. Pretium fusce id velit ut tortor. </p>
-               <a href="post1.html">Continue Reading Here.</a>
+               <a href="post1.html"><button class="continue-button">Continue Reading Here.</button></a>
             </div>
             <div class="post">
                <h2>Article 2</h2>
-               <img class="image" src="Images/post-image2.jpeg">   
+               <img class="image" src="Images/post-image2.jpeg" alt="milky way galaxy">   
+               <figcaption>Fig.2 - The Milky Way Galaxy</figcaption>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio facilisis mauris sit amet massa. Phasellus faucibus scelerisque eleifend donec. Pretium fusce id velit ut tortor. </p>
-               <a href="post2.html">Continue Reading Here.</a>
+               <a href="post2.html"><button class="continue-button">Continue Reading Here.</button></a>
             </div>
             <div class="post">
                <h2>Article 3</h2>
-               <img class="image" src="Images/post-image3.jpeg">   
+               <img class="image" src="Images/post-image3.jpeg" alt="desert view">   
+               <figcaption>Fig.3 - The Desert</figcaption>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio facilisis mauris sit amet massa. Phasellus faucibus scelerisque eleifend donec. Pretium fusce id velit ut tortor. </p>
-               <a href="post3.html">Continue Reading Here.</a>
+               <a href="post3.html"><button class="continue-button">Continue Reading Here.</button></a>
             </div>
          </div>
       </article>

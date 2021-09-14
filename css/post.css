@@ -1,0 +1,38 @@
+/* Individual Post CSS */
+.article-post {
+  padding: 10px;
+}
+
+.author-info {
+  padding-left: 20px;
+}
+
+/* Post buttons CSS */
+.share2,
+.tweet2,
+.link2 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: "share2 tweet2 link2";
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #76b4bd;
+  color: white;
+  margin: 2px;
+}
+
+.share2 {
+  grid-area: share2;
+}
+
+.tweet2 {
+  grid-area: tweet2;
+}
+
+.link2 {
+  grid-area: link2;
+  margin-bottom: 20px;
+}

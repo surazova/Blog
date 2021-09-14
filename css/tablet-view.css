@@ -1,0 +1,10 @@
+/* Tablet View Media Query */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+}

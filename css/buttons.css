@@ -1,0 +1,36 @@
+/* Buttons CSS */
+.share,
+.tweet,
+.pin {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  background-color: #76b4bd;
+  color: white;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: #6e7f80;
+}
+
+#buttons {
+  color: #009688;
+  padding-right: 10px;
+}
+
+q {
+  font-style: italic;
+}
+
+/* Continue Button CSS */
+.continue-button {
+  padding: 5px;
+  border: none;
+  background-color: #6dceb1;
+  color: white;
+  margin: 2px;
+}
